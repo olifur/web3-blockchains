@@ -2,6 +2,8 @@ import ethereum from './blockchains/ethereum'
 import bsc from './blockchains/bsc'
 import polygon from './blockchains/polygon'
 import solana from './blockchains/solana'
+import avax from './blockchains/avax'
+import avax_testnet from './blockchains/avax_testnet'
 import unknown from './blockchains/unknown'
 
 let all = [
@@ -9,6 +11,8 @@ let all = [
   bsc,
   polygon,
   solana,
+  avax,
+  avax_testnet,
   unknown
 ]
 
